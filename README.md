@@ -6,6 +6,8 @@ Here you will find 3 methods of implementing whitelist:
 - Digital signature
 - Merkle tree
 
+In the `test` folder you will find how to create digital signature and merkle proof on web.
+
 ## On-chain whitelist (mapping)
 
 ```solidity
@@ -135,8 +137,6 @@ contract MerkleTreeWhitelistContract is Ownable {
 }
 
 ```
-
-In the `test` folder you will find how to create digital signature and merkle proof on web.
 
 ## Comparison table
 
